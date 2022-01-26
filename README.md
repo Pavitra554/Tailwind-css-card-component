@@ -48,7 +48,10 @@ This is just a card commponent using tailwind css. it just awesome.
 
 # How it look's
     
-  <img src="gif/20211004_112114.gif" />
+  <img src="showcase/s1.png" />
+  <img src="showcase/s2.png" />
+  <img src="showcase/s3.png" />
+  <img src="showcase/s4.png" />
 
 # Some important information about Next.Js
 ## Getting Started
