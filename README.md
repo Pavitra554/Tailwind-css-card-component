@@ -81,14 +81,18 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Some important information about Tailwind Css with Next.js
-    Step-1 First create a next app ```npx create-next-app my-project```
-    Step-2 Go to the project directory ```cd my-project```
-    Step-3 run the following command on terminal ```npm install -D tailwindcss postcss autoprefixer```
-    Step-4 then run this command ```npx tailwindcss init -p```
-    Step-5 add this in tailwind.config.js
-    ```
-    module.exports = {
+## Some important information about Tailwind Css with Next.js 
+   Step-1 First create a next app <br/>
+    ```npx create-next-app my-project```<br/>
+    Step-2 Go to the project directory <br/>
+    ```cd my-project```<br/>
+    Step-3 run the following command on terminal <br/>
+    ```npm install -D tailwindcss postcss autoprefixer```<br/>
+    Step-4 then run this command<br/>
+    ```npx tailwindcss init -p```<br/>
+    Step-5 add this in tailwind.config.js<br/>
+   ```javascript
+module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -100,11 +104,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 }
 ```
 Step-6 add the following code in global.css file
-    ```
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
-
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
 
 
