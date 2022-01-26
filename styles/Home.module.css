@@ -1,0 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/valorant');
+.valo{
+  font-family: 'VALORANT', sans-serif;
+  font-size: 3rem;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.452);
+  margin: 20px;
+}
